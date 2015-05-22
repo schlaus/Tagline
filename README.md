@@ -21,11 +21,15 @@ $ composer require schlaus/tagline
 
 ### The basics
 ```php
+use Schlaus\Tagline\Tagline;
+
 $lineNr   = Tagline::findTag('FindMe!', 'somefile.php');
 $nextLine = Tagline::findNext();
 ```
 
 ### API
+
+The namespace for this package is `Schlaus\Tagline\Tagline`.
 
 ```
 int Tagline::findTag(string $tag [, mixed $file = null [, int $offset = 0 [, string $interpretAs = null]]])
