@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1432280766">
-  <project timestamp="1432280766">
+<coverage generated="1432284332">
+  <project timestamp="1432284332">
     <package name="Schlaus\Tagline">
       <file name="C:\Users\Klasu\Documents\Projektit\Tagline\src/Tagline.php">
         <class name="Tagline" namespace="Schlaus\Tagline">

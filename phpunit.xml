@@ -23,8 +23,8 @@
         </whitelist>
     </filter>
     <logging>
-        <log type="junit" target="reports/report.junit.xml"/>
-        <log type="coverage-text" target="reports/coverage.txt"/>
-        <log type="coverage-clover" target="reports/clover.xml"/>
+        <log type="junit" target="build/logs/report.junit.xml"/>
+        <log type="coverage-text" target="build/logs/coverage.txt"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
     </logging>
 </phpunit>

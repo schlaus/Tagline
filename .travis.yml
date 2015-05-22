@@ -13,7 +13,7 @@ before_script:
   - php composer.phar install --dev --no-interaction
 
 script:
- - mkdir -p reports
+ - mkdir -p build/logs
  - php vendor/bin/phpunit -c phpunit.xml
 
 after_script:
