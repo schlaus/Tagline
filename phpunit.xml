@@ -24,7 +24,6 @@
     </filter>
     <logging>
         <log type="junit" target="reports/report.junit.xml"/>
-        <log type="coverage-html" target="reports/coverage" charset="UTF-8" yui="true" highlight="true"/>
         <log type="coverage-text" target="reports/coverage.txt"/>
         <log type="coverage-clover" target="reports/clover.xml"/>
     </logging>
